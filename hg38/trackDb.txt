@@ -15,6 +15,7 @@ subGroup2 viewpoint viewpoint REP1_Grem1=REP1_Grem1 REP2_Grem1=REP2_Grem1 REP3_G
 subGroup3 aggregation aggregation nan=nan
 parent Replicates on
 compositeTrack on
+html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP1Grem1_Replicates_bigWig
     bigDataUrl COLO320REP1Grem1_Replicates_bigWig.bigWig
@@ -64,9 +65,11 @@ compositeTrack on
 track Replicates_COLO-320_overlay
 shortLabel Replicates_COLO-320_overlay
 longLabel Replicates_COLO-320_overlay
+type bigWig
 aggregate transparentOverlay
 parent Replicates on
 container multiWig
+html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP1Grem1_Replicates_COLO-320_overlay
     bigDataUrl COLO320REP1Grem1_Replicates_COLO-320_overlay.bigWig
@@ -122,3 +125,4 @@ visibility dense
 color 0,0,0
 autoScale off
 maxHeightPixels 100:50:8
+html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
