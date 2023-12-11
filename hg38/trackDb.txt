@@ -17,7 +17,7 @@ parent Replicates on
 compositeTrack on
 
     track COLO320REP1Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP1Grem1_Replicates_bigWig.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP1Grem1_Replicates_bigWig.bigWig
     shortLabel COLO 320 REP1 Grem1
     longLabel COLO 320 REP1 Grem1
     type bigWig
@@ -31,7 +31,7 @@ compositeTrack on
     parent Replicates_bigWig on
 
     track COLO320REP2Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP2Grem1_Replicates_bigWig.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP2Grem1_Replicates_bigWig.bigWig
     shortLabel COLO 320 REP2 Grem1
     longLabel COLO 320 REP2 Grem1
     type bigWig
@@ -45,7 +45,7 @@ compositeTrack on
     parent Replicates_bigWig on
 
     track COLO320REP3Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP3Grem1_Replicates_bigWig.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP3Grem1_Replicates_bigWig.bigWig
     shortLabel COLO 320 REP3 Grem1
     longLabel COLO 320 REP3 Grem1
     type bigWig
@@ -66,7 +66,7 @@ parent Replicates on
 container multiWig
 
     track COLO320REP1Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP1Grem1_Replicates_COLO-320_overlay.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP1Grem1_Replicates_COLO-320_overlay.bigWig
     shortLabel COLO 320 REP1 Grem1
     longLabel COLO 320 REP1 Grem1
     type bigWig
@@ -80,7 +80,7 @@ container multiWig
     parent Replicates_COLO-320_overlay on
 
     track COLO320REP2Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP2Grem1_Replicates_COLO-320_overlay.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP2Grem1_Replicates_COLO-320_overlay.bigWig
     shortLabel COLO 320 REP2 Grem1
     longLabel COLO 320 REP2 Grem1
     type bigWig
@@ -94,7 +94,7 @@ container multiWig
     parent Replicates_COLO-320_overlay on
 
     track COLO320REP3Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP3Grem1_Replicates_COLO-320_overlay.bigWig
+    bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP3Grem1_Replicates_COLO-320_overlay.bigWig
     shortLabel COLO 320 REP3 Grem1
     longLabel COLO 320 REP3 Grem1
     type bigWig
