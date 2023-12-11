@@ -29,6 +29,7 @@ compositeTrack on
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP1_Grem1 aggregation=nan
     parent Replicates_bigWig on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP2Grem1_Replicates_bigWig
     bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP2Grem1_Replicates_bigWig.bigWig
@@ -43,6 +44,7 @@ compositeTrack on
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP2_Grem1 aggregation=nan
     parent Replicates_bigWig on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP3Grem1_Replicates_bigWig
     bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP3Grem1_Replicates_bigWig.bigWig
@@ -57,6 +59,7 @@ compositeTrack on
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP3_Grem1 aggregation=nan
     parent Replicates_bigWig on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
 track Replicates_COLO-320_overlay
 shortLabel Replicates_COLO-320_overlay
@@ -78,6 +81,7 @@ container multiWig
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP1_Grem1 aggregation=nan
     parent Replicates_COLO-320_overlay on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP2Grem1_Replicates_COLO-320_overlay
     bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP2Grem1_Replicates_COLO-320_overlay.bigWig
@@ -92,6 +96,7 @@ container multiWig
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP2_Grem1 aggregation=nan
     parent Replicates_COLO-320_overlay on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
     track COLO320REP3Grem1_Replicates_COLO-320_overlay
     bigDataUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/COLO320REP3Grem1_Replicates_COLO-320_overlay.bigWig
@@ -106,6 +111,7 @@ container multiWig
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP3_Grem1 aggregation=nan
     parent Replicates_COLO-320_overlay on
+    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
 track viewpoint
 bigDataUrl viewpoint.bigBed
