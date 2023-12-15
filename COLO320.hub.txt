@@ -2,5 +2,5 @@ hub hub
 shortLabel COLO320
 longLabel COLO320
 genomesFile COLO320.genomes.txt
-email aikseng.ng@rdm.ox.ac.uk
+email hui.farm@gtc.ox.ac.uk
 descriptionUrl https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/capcruncher_report.html
