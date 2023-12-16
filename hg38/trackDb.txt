@@ -11,15 +11,15 @@ visibility hide
 dimensions dimX=sample dimY=viewpoint dimA=aggregation
 sortOrder sample=+ viewpoint=+ aggregation=+
 subGroup1 sample sample COLO-320=COLO-320
-subGroup2 viewpoint viewpoint REP1_Grem1=REP1_Grem1 REP2_Grem1=REP2_Grem1 REP3_Grem1=REP3_Grem1
+subGroup2 viewpoint viewpoint REP1_KCNE3=REP1_KCNE3 REP1_CHRDL2=REP1_CHRDL2 REP1_RNF169=REP1_RNF169 REP1_XRRA1=REP1_XRRA1 REP1_SPCS2=REP1_SPCS2 REP1_LIPT2=REP1_LIPT2 REP1_POLD3=REP1_POLD3 REP1_GREM1=REP1_GREM1 REP1_SCG5=REP1_SCG5 REP2_KCNE3=REP2_KCNE3 REP2_CHRDL2=REP2_CHRDL2 REP2_RNF169=REP2_RNF169 REP2_XRRA1=REP2_XRRA1 REP2_SPCS2=REP2_SPCS2 REP2_LIPT2=REP2_LIPT2 REP2_POLD3=REP2_POLD3 REP2_GREM1=REP2_GREM1 REP2_SCG5=REP2_SCG5 REP3_KCNE3=REP3_KCNE3 REP3_CHRDL2=REP3_CHRDL2 REP3_RNF169=REP3_RNF169 REP3_XRRA1=REP3_XRRA1 REP3_SPCS2=REP3_SPCS2 REP3_LIPT2=REP3_LIPT2 REP3_POLD3=REP3_POLD3 REP3_GREM1=REP3_GREM1 REP3_SCG5=REP3_SCG5
 subGroup3 aggregation aggregation nan=nan
 parent Replicates on
 compositeTrack on
 
-    track COLO320REP1Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP1Grem1_Replicates_bigWig.bigWig
-    shortLabel COLO 320 REP1 Grem1
-    longLabel COLO 320 REP1 Grem1
+    track COLO320REP1KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP1KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 KCNE3
+    longLabel COLO 320 REP1 KCNE3
     type bigWig
     visibility full
     color 31,119,180
@@ -27,14 +27,13 @@ compositeTrack on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP1_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_KCNE3 aggregation=nan
     parent Replicates_bigWig on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
-    track COLO320REP2Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP2Grem1_Replicates_bigWig.bigWig
-    shortLabel COLO 320 REP2 Grem1
-    longLabel COLO 320 REP2 Grem1
+    track COLO320REP1CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP1CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 CHRDL2
+    longLabel COLO 320 REP1 CHRDL2
     type bigWig
     visibility full
     color 31,119,180
@@ -42,14 +41,13 @@ compositeTrack on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP2_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_CHRDL2 aggregation=nan
     parent Replicates_bigWig on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
-    track COLO320REP3Grem1_Replicates_bigWig
-    bigDataUrl COLO320REP3Grem1_Replicates_bigWig.bigWig
-    shortLabel COLO 320 REP3 Grem1
-    longLabel COLO 320 REP3 Grem1
+    track COLO320REP1RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP1RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 RNF169
+    longLabel COLO 320 REP1 RNF169
     type bigWig
     visibility full
     color 31,119,180
@@ -57,22 +55,734 @@ compositeTrack on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP3_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_RNF169 aggregation=nan
     parent Replicates_bigWig on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
+
+    track COLO320REP1XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP1XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 XRRA1
+    longLabel COLO 320 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP1SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 SPCS2
+    longLabel COLO 320 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP1LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 LIPT2
+    longLabel COLO 320 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP1POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 POLD3
+    longLabel COLO 320 REP1 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP1GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 GREM1
+    longLabel COLO 320 REP1 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP1SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 SCG5
+    longLabel COLO 320 REP1 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP1KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 KCNE3
+    longLabel COLO 320 REP1 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP1CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 CHRDL2
+    longLabel COLO 320 REP1 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP1RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 RNF169
+    longLabel COLO 320 REP1 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP1XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 XRRA1
+    longLabel COLO 320 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP1SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 SPCS2
+    longLabel COLO 320 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP1LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 LIPT2
+    longLabel COLO 320 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP1POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 POLD3
+    longLabel COLO 320 REP1 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP1GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 GREM1
+    longLabel COLO 320 REP1 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP1SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP1SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP1 SCG5
+    longLabel COLO 320 REP1 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP2KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 KCNE3
+    longLabel COLO 320 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP2CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 CHRDL2
+    longLabel COLO 320 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP2RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 RNF169
+    longLabel COLO 320 REP2 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP2XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 XRRA1
+    longLabel COLO 320 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP2SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 SPCS2
+    longLabel COLO 320 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP2LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 LIPT2
+    longLabel COLO 320 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP2POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 POLD3
+    longLabel COLO 320 REP2 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP2GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 GREM1
+    longLabel COLO 320 REP2 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP2SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 SCG5
+    longLabel COLO 320 REP2 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP2KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 KCNE3
+    longLabel COLO 320 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP2CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 CHRDL2
+    longLabel COLO 320 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP2RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 RNF169
+    longLabel COLO 320 REP2 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP2XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 XRRA1
+    longLabel COLO 320 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP2SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 SPCS2
+    longLabel COLO 320 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP2LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 LIPT2
+    longLabel COLO 320 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP2POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 POLD3
+    longLabel COLO 320 REP2 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP2GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 GREM1
+    longLabel COLO 320 REP2 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP2SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP2SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP2 SCG5
+    longLabel COLO 320 REP2 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP3KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 KCNE3
+    longLabel COLO 320 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP3CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 CHRDL2
+    longLabel COLO 320 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP3RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 RNF169
+    longLabel COLO 320 REP3 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP3XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 XRRA1
+    longLabel COLO 320 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP3SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 SPCS2
+    longLabel COLO 320 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP3LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 LIPT2
+    longLabel COLO 320 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP3POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 POLD3
+    longLabel COLO 320 REP3 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP3GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 GREM1
+    longLabel COLO 320 REP3 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP3SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 SCG5
+    longLabel COLO 320 REP3 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3KCNE3_Replicates_bigWig
+    bigDataUrl COLO320REP3KCNE3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 KCNE3
+    longLabel COLO 320 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3CHRDL2_Replicates_bigWig
+    bigDataUrl COLO320REP3CHRDL2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 CHRDL2
+    longLabel COLO 320 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3RNF169_Replicates_bigWig
+    bigDataUrl COLO320REP3RNF169_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 RNF169
+    longLabel COLO 320 REP3 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3XRRA1_Replicates_bigWig
+    bigDataUrl COLO320REP3XRRA1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 XRRA1
+    longLabel COLO 320 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3SPCS2_Replicates_bigWig
+    bigDataUrl COLO320REP3SPCS2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 SPCS2
+    longLabel COLO 320 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3LIPT2_Replicates_bigWig
+    bigDataUrl COLO320REP3LIPT2_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 LIPT2
+    longLabel COLO 320 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3POLD3_Replicates_bigWig
+    bigDataUrl COLO320REP3POLD3_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 POLD3
+    longLabel COLO 320 REP3 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3GREM1_Replicates_bigWig
+    bigDataUrl COLO320REP3GREM1_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 GREM1
+    longLabel COLO 320 REP3 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track COLO320REP3SCG5_Replicates_bigWig
+    bigDataUrl COLO320REP3SCG5_Replicates_bigWig.bigWig
+    shortLabel COLO 320 REP3 SCG5
+    longLabel COLO 320 REP3 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_bigWig on
 
 track Replicates_COLO-320_overlay
 shortLabel Replicates_COLO-320_overlay
 longLabel Replicates_COLO-320_overlay
-type bigWig
 aggregate transparentOverlay
 parent Replicates on
 container multiWig
 
-    track COLO320REP1Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP1Grem1_Replicates_COLO-320_overlay.bigWig
-    shortLabel COLO 320 REP1 Grem1
-    longLabel COLO 320 REP1 Grem1
+    track COLO320REP1KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 KCNE3
+    longLabel COLO 320 REP1 KCNE3
     type bigWig
     visibility full
     color 31,119,180
@@ -80,14 +790,13 @@ container multiWig
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP1_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_KCNE3 aggregation=nan
     parent Replicates_COLO-320_overlay on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
-    track COLO320REP2Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP2Grem1_Replicates_COLO-320_overlay.bigWig
-    shortLabel COLO 320 REP2 Grem1
-    longLabel COLO 320 REP2 Grem1
+    track COLO320REP1CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 CHRDL2
+    longLabel COLO 320 REP1 CHRDL2
     type bigWig
     visibility full
     color 31,119,180
@@ -95,14 +804,13 @@ container multiWig
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP2_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_CHRDL2 aggregation=nan
     parent Replicates_COLO-320_overlay on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
 
-    track COLO320REP3Grem1_Replicates_COLO-320_overlay
-    bigDataUrl COLO320REP3Grem1_Replicates_COLO-320_overlay.bigWig
-    shortLabel COLO 320 REP3 Grem1
-    longLabel COLO 320 REP3 Grem1
+    track COLO320REP1RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 RNF169
+    longLabel COLO 320 REP1 RNF169
     type bigWig
     visibility full
     color 31,119,180
@@ -110,9 +818,722 @@ container multiWig
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
-    subGroups sample=COLO-320 viewpoint=REP3_Grem1 aggregation=nan
+    subGroups sample=COLO-320 viewpoint=REP1_RNF169 aggregation=nan
     parent Replicates_COLO-320_overlay on
-    html https://raw.githubusercontent.com/FarmHJ/genome-hub/main/hg38/description.html
+
+    track COLO320REP1XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 XRRA1
+    longLabel COLO 320 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 SPCS2
+    longLabel COLO 320 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 LIPT2
+    longLabel COLO 320 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 POLD3
+    longLabel COLO 320 REP1 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 GREM1
+    longLabel COLO 320 REP1 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 SCG5
+    longLabel COLO 320 REP1 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 KCNE3
+    longLabel COLO 320 REP1 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_KCNE3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 CHRDL2
+    longLabel COLO 320 REP1 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_CHRDL2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 RNF169
+    longLabel COLO 320 REP1 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_RNF169 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 XRRA1
+    longLabel COLO 320 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 SPCS2
+    longLabel COLO 320 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 LIPT2
+    longLabel COLO 320 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 POLD3
+    longLabel COLO 320 REP1 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 GREM1
+    longLabel COLO 320 REP1 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP1SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP1SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP1 SCG5
+    longLabel COLO 320 REP1 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 KCNE3
+    longLabel COLO 320 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 CHRDL2
+    longLabel COLO 320 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 RNF169
+    longLabel COLO 320 REP2 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 XRRA1
+    longLabel COLO 320 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 SPCS2
+    longLabel COLO 320 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 LIPT2
+    longLabel COLO 320 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 POLD3
+    longLabel COLO 320 REP2 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 GREM1
+    longLabel COLO 320 REP2 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 SCG5
+    longLabel COLO 320 REP2 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 KCNE3
+    longLabel COLO 320 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 CHRDL2
+    longLabel COLO 320 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 RNF169
+    longLabel COLO 320 REP2 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 XRRA1
+    longLabel COLO 320 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 SPCS2
+    longLabel COLO 320 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 LIPT2
+    longLabel COLO 320 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 POLD3
+    longLabel COLO 320 REP2 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 GREM1
+    longLabel COLO 320 REP2 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP2SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP2SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP2 SCG5
+    longLabel COLO 320 REP2 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 KCNE3
+    longLabel COLO 320 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 CHRDL2
+    longLabel COLO 320 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 RNF169
+    longLabel COLO 320 REP3 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 XRRA1
+    longLabel COLO 320 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 SPCS2
+    longLabel COLO 320 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 LIPT2
+    longLabel COLO 320 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 POLD3
+    longLabel COLO 320 REP3 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 GREM1
+    longLabel COLO 320 REP3 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 SCG5
+    longLabel COLO 320 REP3 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3KCNE3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3KCNE3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 KCNE3
+    longLabel COLO 320 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3CHRDL2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3CHRDL2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 CHRDL2
+    longLabel COLO 320 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3RNF169_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3RNF169_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 RNF169
+    longLabel COLO 320 REP3 RNF169
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3XRRA1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3XRRA1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 XRRA1
+    longLabel COLO 320 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3SPCS2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3SPCS2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 SPCS2
+    longLabel COLO 320 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3LIPT2_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3LIPT2_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 LIPT2
+    longLabel COLO 320 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3POLD3_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3POLD3_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 POLD3
+    longLabel COLO 320 REP3 POLD3
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3GREM1_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3GREM1_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 GREM1
+    longLabel COLO 320 REP3 GREM1
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_COLO-320_overlay on
+
+    track COLO320REP3SCG5_Replicates_COLO-320_overlay
+    bigDataUrl COLO320REP3SCG5_Replicates_COLO-320_overlay.bigWig
+    shortLabel COLO 320 REP3 SCG5
+    longLabel COLO 320 REP3 SCG5
+    type bigWig
+    visibility full
+    color 31,119,180
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO-320 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_COLO-320_overlay on
 
 track viewpoint
 bigDataUrl viewpoint.bigBed
