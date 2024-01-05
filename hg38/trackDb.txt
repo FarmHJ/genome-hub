@@ -10,7 +10,7 @@ type bigWig
 visibility hide
 dimensions dimX=sample dimY=viewpoint dimA=aggregation
 sortOrder sample=+ viewpoint=+ aggregation=+
-subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 SNUC1-COLO320=SNUC1-COLO320
+subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 COLO320-Caco2=COLO320-Caco2 SNUC1-COLO320=SNUC1-COLO320 SNUC1-Caco2=SNUC1-Caco2 Caco2-COLO320=Caco2-COLO320 Caco2-SNUC1=Caco2-SNUC1
 subGroup2 viewpoint viewpoint KCNE3=KCNE3 CHRDL2=CHRDL2 RNF169=RNF169 XRRA1=XRRA1 SPCS2=SPCS2 LIPT2=LIPT2 POLD3=POLD3 GREM1=GREM1 SCG5=SCG5 FMN1=FMN1
 subGroup3 aggregation aggregation mean=mean
 parent Aggregated on
@@ -296,6 +296,146 @@ compositeTrack on
     subGroups sample=SNUC1 viewpoint=mean-summary.FMN1 aggregation=
     parent Aggregated_bigWig on
 
+    track Caco2meansummaryKCNE3_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryKCNE3_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary KCNE3
+    longLabel Caco2 mean summary KCNE3
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.KCNE3 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryCHRDL2_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryCHRDL2_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary CHRDL2
+    longLabel Caco2 mean summary CHRDL2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.CHRDL2 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryRNF169_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryRNF169_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary RNF169
+    longLabel Caco2 mean summary RNF169
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.RNF169 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryXRRA1_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryXRRA1_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary XRRA1
+    longLabel Caco2 mean summary XRRA1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.XRRA1 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummarySPCS2_Aggregated_bigWig
+    bigDataUrl Caco2meansummarySPCS2_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary SPCS2
+    longLabel Caco2 mean summary SPCS2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.SPCS2 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryLIPT2_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryLIPT2_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary LIPT2
+    longLabel Caco2 mean summary LIPT2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.LIPT2 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryPOLD3_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryPOLD3_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary POLD3
+    longLabel Caco2 mean summary POLD3
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.POLD3 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryGREM1_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryGREM1_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary GREM1
+    longLabel Caco2 mean summary GREM1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.GREM1 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummarySCG5_Aggregated_bigWig
+    bigDataUrl Caco2meansummarySCG5_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary SCG5
+    longLabel Caco2 mean summary SCG5
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.SCG5 aggregation=
+    parent Aggregated_bigWig on
+
+    track Caco2meansummaryFMN1_Aggregated_bigWig
+    bigDataUrl Caco2meansummaryFMN1_Aggregated_bigWig.bigWig
+    shortLabel Caco2 mean summary FMN1
+    longLabel Caco2 mean summary FMN1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.FMN1 aggregation=
+    parent Aggregated_bigWig on
+
 track Aggregated_COLO320_overlay
 shortLabel Aggregated_COLO320_overlay
 longLabel Aggregated_COLO320_overlay
@@ -442,6 +582,153 @@ container multiWig
     windowingFunction mean
     subGroups sample=COLO320 viewpoint=mean-summary.FMN1 aggregation=
     parent Aggregated_COLO320_overlay on
+
+track Aggregated_Caco2_overlay
+shortLabel Aggregated_Caco2_overlay
+longLabel Aggregated_Caco2_overlay
+aggregate transparentOverlay
+parent Aggregated on
+container multiWig
+
+    track Caco2meansummaryKCNE3_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryKCNE3_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary KCNE3
+    longLabel Caco2 mean summary KCNE3
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.KCNE3 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryCHRDL2_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryCHRDL2_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary CHRDL2
+    longLabel Caco2 mean summary CHRDL2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.CHRDL2 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryRNF169_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryRNF169_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary RNF169
+    longLabel Caco2 mean summary RNF169
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.RNF169 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryXRRA1_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryXRRA1_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary XRRA1
+    longLabel Caco2 mean summary XRRA1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.XRRA1 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummarySPCS2_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummarySPCS2_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary SPCS2
+    longLabel Caco2 mean summary SPCS2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.SPCS2 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryLIPT2_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryLIPT2_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary LIPT2
+    longLabel Caco2 mean summary LIPT2
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.LIPT2 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryPOLD3_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryPOLD3_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary POLD3
+    longLabel Caco2 mean summary POLD3
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.POLD3 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryGREM1_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryGREM1_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary GREM1
+    longLabel Caco2 mean summary GREM1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.GREM1 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummarySCG5_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummarySCG5_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary SCG5
+    longLabel Caco2 mean summary SCG5
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.SCG5 aggregation=
+    parent Aggregated_Caco2_overlay on
+
+    track Caco2meansummaryFMN1_Aggregated_Caco2_overlay
+    bigDataUrl Caco2meansummaryFMN1_Aggregated_Caco2_overlay.bigWig
+    shortLabel Caco2 mean summary FMN1
+    longLabel Caco2 mean summary FMN1
+    type bigWig
+    visibility full
+    color 255,127,14
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2 viewpoint=mean-summary.FMN1 aggregation=
+    parent Aggregated_Caco2_overlay on
 
 track Aggregated_SNUC1_overlay
 shortLabel Aggregated_SNUC1_overlay
@@ -602,7 +889,7 @@ type bigWig
 visibility hide
 dimensions dimX=sample dimY=viewpoint dimA=aggregation
 sortOrder sample=+ viewpoint=+ aggregation=+
-subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 SNUC1-COLO320=SNUC1-COLO320
+subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 COLO320-Caco2=COLO320-Caco2 SNUC1-COLO320=SNUC1-COLO320 SNUC1-Caco2=SNUC1-Caco2 Caco2-COLO320=Caco2-COLO320 Caco2-SNUC1=Caco2-SNUC1
 subGroup2 viewpoint viewpoint KCNE3=KCNE3 CHRDL2=CHRDL2 RNF169=RNF169 XRRA1=XRRA1 SPCS2=SPCS2 LIPT2=LIPT2 POLD3=POLD3 GREM1=GREM1 SCG5=SCG5 FMN1=FMN1
 subGroup3 aggregation aggregation mean=mean
 parent Replicates on
@@ -614,7 +901,7 @@ compositeTrack on
     longLabel COLO 320 REP1 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -628,7 +915,7 @@ compositeTrack on
     longLabel COLO 320 REP1 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -642,7 +929,7 @@ compositeTrack on
     longLabel COLO 320 REP1 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -656,7 +943,7 @@ compositeTrack on
     longLabel COLO 320 REP1 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -670,7 +957,7 @@ compositeTrack on
     longLabel COLO 320 REP1 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -684,7 +971,7 @@ compositeTrack on
     longLabel COLO 320 REP1 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -698,7 +985,7 @@ compositeTrack on
     longLabel COLO 320 REP1 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -712,7 +999,7 @@ compositeTrack on
     longLabel COLO 320 REP1 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -726,7 +1013,7 @@ compositeTrack on
     longLabel COLO 320 REP1 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -740,7 +1027,7 @@ compositeTrack on
     longLabel COLO 320 REP1 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -754,7 +1041,7 @@ compositeTrack on
     longLabel COLO 320 REP2 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -768,7 +1055,7 @@ compositeTrack on
     longLabel COLO 320 REP2 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -782,7 +1069,7 @@ compositeTrack on
     longLabel COLO 320 REP2 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -796,7 +1083,7 @@ compositeTrack on
     longLabel COLO 320 REP2 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -810,7 +1097,7 @@ compositeTrack on
     longLabel COLO 320 REP2 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -824,7 +1111,7 @@ compositeTrack on
     longLabel COLO 320 REP2 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -838,7 +1125,7 @@ compositeTrack on
     longLabel COLO 320 REP2 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -852,7 +1139,7 @@ compositeTrack on
     longLabel COLO 320 REP2 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -866,7 +1153,7 @@ compositeTrack on
     longLabel COLO 320 REP2 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -880,7 +1167,7 @@ compositeTrack on
     longLabel COLO 320 REP2 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -894,7 +1181,7 @@ compositeTrack on
     longLabel COLO 320 REP3 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -908,7 +1195,7 @@ compositeTrack on
     longLabel COLO 320 REP3 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -922,7 +1209,7 @@ compositeTrack on
     longLabel COLO 320 REP3 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -936,7 +1223,7 @@ compositeTrack on
     longLabel COLO 320 REP3 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -950,7 +1237,7 @@ compositeTrack on
     longLabel COLO 320 REP3 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -964,7 +1251,7 @@ compositeTrack on
     longLabel COLO 320 REP3 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -978,7 +1265,7 @@ compositeTrack on
     longLabel COLO 320 REP3 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -992,7 +1279,7 @@ compositeTrack on
     longLabel COLO 320 REP3 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1006,7 +1293,7 @@ compositeTrack on
     longLabel COLO 320 REP3 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1020,7 +1307,7 @@ compositeTrack on
     longLabel COLO 320 REP3 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1028,6 +1315,425 @@ compositeTrack on
     subGroups sample=COLO-320 viewpoint=REP3_FMN1 aggregation=nan
     parent Replicates_bigWig on
 
+    track Caco2REP1KCNE3_Replicates_bigWig
+    bigDataUrl Caco2REP1KCNE3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 KCNE3
+    longLabel Caco 2 REP1 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1CHRDL2_Replicates_bigWig
+    bigDataUrl Caco2REP1CHRDL2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 CHRDL2
+    longLabel Caco 2 REP1 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1RNF169_Replicates_bigWig
+    bigDataUrl Caco2REP1RNF169_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 RNF169
+    longLabel Caco 2 REP1 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1XRRA1_Replicates_bigWig
+    bigDataUrl Caco2REP1XRRA1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 XRRA1
+    longLabel Caco 2 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1SPCS2_Replicates_bigWig
+    bigDataUrl Caco2REP1SPCS2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 SPCS2
+    longLabel Caco 2 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1LIPT2_Replicates_bigWig
+    bigDataUrl Caco2REP1LIPT2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 LIPT2
+    longLabel Caco 2 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1POLD3_Replicates_bigWig
+    bigDataUrl Caco2REP1POLD3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 POLD3
+    longLabel Caco 2 REP1 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1GREM1_Replicates_bigWig
+    bigDataUrl Caco2REP1GREM1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 GREM1
+    longLabel Caco 2 REP1 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1SCG5_Replicates_bigWig
+    bigDataUrl Caco2REP1SCG5_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 SCG5
+    longLabel Caco 2 REP1 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP1FMN1_Replicates_bigWig
+    bigDataUrl Caco2REP1FMN1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP1 FMN1
+    longLabel Caco 2 REP1 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_FMN1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2KCNE3_Replicates_bigWig
+    bigDataUrl Caco2REP2KCNE3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 KCNE3
+    longLabel Caco 2 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2CHRDL2_Replicates_bigWig
+    bigDataUrl Caco2REP2CHRDL2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 CHRDL2
+    longLabel Caco 2 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2RNF169_Replicates_bigWig
+    bigDataUrl Caco2REP2RNF169_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 RNF169
+    longLabel Caco 2 REP2 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2XRRA1_Replicates_bigWig
+    bigDataUrl Caco2REP2XRRA1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 XRRA1
+    longLabel Caco 2 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2SPCS2_Replicates_bigWig
+    bigDataUrl Caco2REP2SPCS2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 SPCS2
+    longLabel Caco 2 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2LIPT2_Replicates_bigWig
+    bigDataUrl Caco2REP2LIPT2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 LIPT2
+    longLabel Caco 2 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2POLD3_Replicates_bigWig
+    bigDataUrl Caco2REP2POLD3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 POLD3
+    longLabel Caco 2 REP2 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2GREM1_Replicates_bigWig
+    bigDataUrl Caco2REP2GREM1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 GREM1
+    longLabel Caco 2 REP2 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2SCG5_Replicates_bigWig
+    bigDataUrl Caco2REP2SCG5_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 SCG5
+    longLabel Caco 2 REP2 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP2FMN1_Replicates_bigWig
+    bigDataUrl Caco2REP2FMN1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP2 FMN1
+    longLabel Caco 2 REP2 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_FMN1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3KCNE3_Replicates_bigWig
+    bigDataUrl Caco2REP3KCNE3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 KCNE3
+    longLabel Caco 2 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3CHRDL2_Replicates_bigWig
+    bigDataUrl Caco2REP3CHRDL2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 CHRDL2
+    longLabel Caco 2 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3RNF169_Replicates_bigWig
+    bigDataUrl Caco2REP3RNF169_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 RNF169
+    longLabel Caco 2 REP3 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3XRRA1_Replicates_bigWig
+    bigDataUrl Caco2REP3XRRA1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 XRRA1
+    longLabel Caco 2 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3SPCS2_Replicates_bigWig
+    bigDataUrl Caco2REP3SPCS2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 SPCS2
+    longLabel Caco 2 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3LIPT2_Replicates_bigWig
+    bigDataUrl Caco2REP3LIPT2_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 LIPT2
+    longLabel Caco 2 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3POLD3_Replicates_bigWig
+    bigDataUrl Caco2REP3POLD3_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 POLD3
+    longLabel Caco 2 REP3 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3GREM1_Replicates_bigWig
+    bigDataUrl Caco2REP3GREM1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 GREM1
+    longLabel Caco 2 REP3 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3SCG5_Replicates_bigWig
+    bigDataUrl Caco2REP3SCG5_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 SCG5
+    longLabel Caco 2 REP3 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_bigWig on
+
+    track Caco2REP3FMN1_Replicates_bigWig
+    bigDataUrl Caco2REP3FMN1_Replicates_bigWig.bigWig
+    shortLabel Caco 2 REP3 FMN1
+    longLabel Caco 2 REP3 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_FMN1 aggregation=nan
+    parent Replicates_bigWig on
 
     track SNUC1REP1KCNE3_Replicates_bigWig
     bigDataUrl SNUC1REP1KCNE3_Replicates_bigWig.bigWig
@@ -1035,7 +1741,7 @@ compositeTrack on
     longLabel SNU C1 REP1 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1049,7 +1755,7 @@ compositeTrack on
     longLabel SNU C1 REP1 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1063,7 +1769,7 @@ compositeTrack on
     longLabel SNU C1 REP1 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1077,7 +1783,7 @@ compositeTrack on
     longLabel SNU C1 REP1 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1091,7 +1797,7 @@ compositeTrack on
     longLabel SNU C1 REP1 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1105,7 +1811,7 @@ compositeTrack on
     longLabel SNU C1 REP1 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1119,7 +1825,7 @@ compositeTrack on
     longLabel SNU C1 REP1 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1133,7 +1839,7 @@ compositeTrack on
     longLabel SNU C1 REP1 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1147,7 +1853,7 @@ compositeTrack on
     longLabel SNU C1 REP1 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1161,7 +1867,7 @@ compositeTrack on
     longLabel SNU C1 REP1 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1175,7 +1881,7 @@ compositeTrack on
     longLabel SNU C1 REP2 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1189,7 +1895,7 @@ compositeTrack on
     longLabel SNU C1 REP2 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1203,7 +1909,7 @@ compositeTrack on
     longLabel SNU C1 REP2 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1217,7 +1923,7 @@ compositeTrack on
     longLabel SNU C1 REP2 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1231,7 +1937,7 @@ compositeTrack on
     longLabel SNU C1 REP2 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1245,7 +1951,7 @@ compositeTrack on
     longLabel SNU C1 REP2 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1259,7 +1965,7 @@ compositeTrack on
     longLabel SNU C1 REP2 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1273,7 +1979,7 @@ compositeTrack on
     longLabel SNU C1 REP2 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1287,7 +1993,7 @@ compositeTrack on
     longLabel SNU C1 REP2 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1301,7 +2007,7 @@ compositeTrack on
     longLabel SNU C1 REP2 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1315,7 +2021,7 @@ compositeTrack on
     longLabel SNU C1 REP3 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1329,7 +2035,7 @@ compositeTrack on
     longLabel SNU C1 REP3 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1343,7 +2049,7 @@ compositeTrack on
     longLabel SNU C1 REP3 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1357,7 +2063,7 @@ compositeTrack on
     longLabel SNU C1 REP3 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1371,7 +2077,7 @@ compositeTrack on
     longLabel SNU C1 REP3 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1385,7 +2091,7 @@ compositeTrack on
     longLabel SNU C1 REP3 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1399,7 +2105,7 @@ compositeTrack on
     longLabel SNU C1 REP3 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1413,7 +2119,7 @@ compositeTrack on
     longLabel SNU C1 REP3 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1427,7 +2133,7 @@ compositeTrack on
     longLabel SNU C1 REP3 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1441,7 +2147,7 @@ compositeTrack on
     longLabel SNU C1 REP3 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1462,7 +2168,7 @@ container multiWig
     longLabel COLO 320 REP1 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1476,7 +2182,7 @@ container multiWig
     longLabel COLO 320 REP1 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1490,7 +2196,7 @@ container multiWig
     longLabel COLO 320 REP1 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1504,7 +2210,7 @@ container multiWig
     longLabel COLO 320 REP1 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1518,7 +2224,7 @@ container multiWig
     longLabel COLO 320 REP1 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1532,7 +2238,7 @@ container multiWig
     longLabel COLO 320 REP1 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1546,7 +2252,7 @@ container multiWig
     longLabel COLO 320 REP1 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1560,7 +2266,7 @@ container multiWig
     longLabel COLO 320 REP1 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1574,7 +2280,7 @@ container multiWig
     longLabel COLO 320 REP1 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1588,7 +2294,7 @@ container multiWig
     longLabel COLO 320 REP1 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1602,7 +2308,7 @@ container multiWig
     longLabel COLO 320 REP2 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1616,7 +2322,7 @@ container multiWig
     longLabel COLO 320 REP2 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1630,7 +2336,7 @@ container multiWig
     longLabel COLO 320 REP2 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1644,7 +2350,7 @@ container multiWig
     longLabel COLO 320 REP2 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1658,7 +2364,7 @@ container multiWig
     longLabel COLO 320 REP2 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1672,7 +2378,7 @@ container multiWig
     longLabel COLO 320 REP2 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1686,7 +2392,7 @@ container multiWig
     longLabel COLO 320 REP2 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1700,7 +2406,7 @@ container multiWig
     longLabel COLO 320 REP2 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1714,7 +2420,7 @@ container multiWig
     longLabel COLO 320 REP2 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1728,7 +2434,7 @@ container multiWig
     longLabel COLO 320 REP2 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1742,7 +2448,7 @@ container multiWig
     longLabel COLO 320 REP3 KCNE3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1756,7 +2462,7 @@ container multiWig
     longLabel COLO 320 REP3 CHRDL2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1770,7 +2476,7 @@ container multiWig
     longLabel COLO 320 REP3 RNF169
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1784,7 +2490,7 @@ container multiWig
     longLabel COLO 320 REP3 XRRA1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1798,7 +2504,7 @@ container multiWig
     longLabel COLO 320 REP3 SPCS2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1812,7 +2518,7 @@ container multiWig
     longLabel COLO 320 REP3 LIPT2
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1826,7 +2532,7 @@ container multiWig
     longLabel COLO 320 REP3 POLD3
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1840,7 +2546,7 @@ container multiWig
     longLabel COLO 320 REP3 GREM1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1854,7 +2560,7 @@ container multiWig
     longLabel COLO 320 REP3 SCG5
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1868,13 +2574,440 @@ container multiWig
     longLabel COLO 320 REP3 FMN1
     type bigWig
     visibility full
-    color 255,127,14
+    color 255,187,120
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
     subGroups sample=COLO-320 viewpoint=REP3_FMN1 aggregation=nan
     parent Replicates_COLO-320_overlay on
+
+track Replicates_Caco-2_overlay
+shortLabel Replicates_Caco-2_overlay
+longLabel Replicates_Caco-2_overlay
+aggregate transparentOverlay
+parent Replicates on
+container multiWig
+
+    track Caco2REP1KCNE3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1KCNE3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 KCNE3
+    longLabel Caco 2 REP1 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_KCNE3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1CHRDL2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1CHRDL2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 CHRDL2
+    longLabel Caco 2 REP1 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_CHRDL2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1RNF169_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1RNF169_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 RNF169
+    longLabel Caco 2 REP1 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_RNF169 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1XRRA1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1XRRA1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 XRRA1
+    longLabel Caco 2 REP1 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_XRRA1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1SPCS2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1SPCS2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 SPCS2
+    longLabel Caco 2 REP1 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_SPCS2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1LIPT2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1LIPT2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 LIPT2
+    longLabel Caco 2 REP1 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_LIPT2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1POLD3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1POLD3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 POLD3
+    longLabel Caco 2 REP1 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_POLD3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1GREM1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1GREM1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 GREM1
+    longLabel Caco 2 REP1 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_GREM1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1SCG5_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1SCG5_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 SCG5
+    longLabel Caco 2 REP1 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_SCG5 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP1FMN1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP1FMN1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP1 FMN1
+    longLabel Caco 2 REP1 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP1_FMN1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2KCNE3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2KCNE3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 KCNE3
+    longLabel Caco 2 REP2 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_KCNE3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2CHRDL2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2CHRDL2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 CHRDL2
+    longLabel Caco 2 REP2 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_CHRDL2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2RNF169_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2RNF169_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 RNF169
+    longLabel Caco 2 REP2 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_RNF169 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2XRRA1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2XRRA1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 XRRA1
+    longLabel Caco 2 REP2 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_XRRA1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2SPCS2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2SPCS2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 SPCS2
+    longLabel Caco 2 REP2 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_SPCS2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2LIPT2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2LIPT2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 LIPT2
+    longLabel Caco 2 REP2 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_LIPT2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2POLD3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2POLD3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 POLD3
+    longLabel Caco 2 REP2 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_POLD3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2GREM1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2GREM1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 GREM1
+    longLabel Caco 2 REP2 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_GREM1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2SCG5_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2SCG5_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 SCG5
+    longLabel Caco 2 REP2 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_SCG5 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP2FMN1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP2FMN1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP2 FMN1
+    longLabel Caco 2 REP2 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP2_FMN1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3KCNE3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3KCNE3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 KCNE3
+    longLabel Caco 2 REP3 KCNE3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_KCNE3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3CHRDL2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3CHRDL2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 CHRDL2
+    longLabel Caco 2 REP3 CHRDL2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_CHRDL2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3RNF169_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3RNF169_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 RNF169
+    longLabel Caco 2 REP3 RNF169
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_RNF169 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3XRRA1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3XRRA1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 XRRA1
+    longLabel Caco 2 REP3 XRRA1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_XRRA1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3SPCS2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3SPCS2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 SPCS2
+    longLabel Caco 2 REP3 SPCS2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_SPCS2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3LIPT2_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3LIPT2_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 LIPT2
+    longLabel Caco 2 REP3 LIPT2
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_LIPT2 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3POLD3_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3POLD3_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 POLD3
+    longLabel Caco 2 REP3 POLD3
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_POLD3 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3GREM1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3GREM1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 GREM1
+    longLabel Caco 2 REP3 GREM1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_GREM1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3SCG5_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3SCG5_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 SCG5
+    longLabel Caco 2 REP3 SCG5
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_SCG5 aggregation=nan
+    parent Replicates_Caco-2_overlay on
+
+    track Caco2REP3FMN1_Replicates_Caco-2_overlay
+    bigDataUrl Caco2REP3FMN1_Replicates_Caco-2_overlay.bigWig
+    shortLabel Caco 2 REP3 FMN1
+    longLabel Caco 2 REP3 FMN1
+    type bigWig
+    visibility full
+    color 44,160,44
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco-2 viewpoint=REP3_FMN1 aggregation=nan
+    parent Replicates_Caco-2_overlay on
 
 track Replicates_SNU-C1_overlay
 shortLabel Replicates_SNU-C1_overlay
@@ -1889,7 +3022,7 @@ container multiWig
     longLabel SNU C1 REP1 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1903,7 +3036,7 @@ container multiWig
     longLabel SNU C1 REP1 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1917,7 +3050,7 @@ container multiWig
     longLabel SNU C1 REP1 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1931,7 +3064,7 @@ container multiWig
     longLabel SNU C1 REP1 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1945,7 +3078,7 @@ container multiWig
     longLabel SNU C1 REP1 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1959,7 +3092,7 @@ container multiWig
     longLabel SNU C1 REP1 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1973,7 +3106,7 @@ container multiWig
     longLabel SNU C1 REP1 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -1987,7 +3120,7 @@ container multiWig
     longLabel SNU C1 REP1 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2001,7 +3134,7 @@ container multiWig
     longLabel SNU C1 REP1 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2015,7 +3148,7 @@ container multiWig
     longLabel SNU C1 REP1 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2029,7 +3162,7 @@ container multiWig
     longLabel SNU C1 REP2 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2043,7 +3176,7 @@ container multiWig
     longLabel SNU C1 REP2 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2057,7 +3190,7 @@ container multiWig
     longLabel SNU C1 REP2 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2071,7 +3204,7 @@ container multiWig
     longLabel SNU C1 REP2 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2085,7 +3218,7 @@ container multiWig
     longLabel SNU C1 REP2 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2099,7 +3232,7 @@ container multiWig
     longLabel SNU C1 REP2 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2113,7 +3246,7 @@ container multiWig
     longLabel SNU C1 REP2 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2127,7 +3260,7 @@ container multiWig
     longLabel SNU C1 REP2 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2141,7 +3274,7 @@ container multiWig
     longLabel SNU C1 REP2 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2155,7 +3288,7 @@ container multiWig
     longLabel SNU C1 REP2 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2169,7 +3302,7 @@ container multiWig
     longLabel SNU C1 REP3 KCNE3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2183,7 +3316,7 @@ container multiWig
     longLabel SNU C1 REP3 CHRDL2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2197,7 +3330,7 @@ container multiWig
     longLabel SNU C1 REP3 RNF169
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2211,7 +3344,7 @@ container multiWig
     longLabel SNU C1 REP3 XRRA1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2225,7 +3358,7 @@ container multiWig
     longLabel SNU C1 REP3 SPCS2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2239,7 +3372,7 @@ container multiWig
     longLabel SNU C1 REP3 LIPT2
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2253,7 +3386,7 @@ container multiWig
     longLabel SNU C1 REP3 POLD3
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2267,7 +3400,7 @@ container multiWig
     longLabel SNU C1 REP3 GREM1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2281,7 +3414,7 @@ container multiWig
     longLabel SNU C1 REP3 SCG5
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2295,7 +3428,7 @@ container multiWig
     longLabel SNU C1 REP3 FMN1
     type bigWig
     visibility full
-    color 255,187,120
+    color 152,223,138
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2315,7 +3448,7 @@ type bigWig
 visibility hide
 dimensions dimX=sample dimY=viewpoint dimA=aggregation
 sortOrder sample=+ viewpoint=+ aggregation=+
-subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 SNUC1-COLO320=SNUC1-COLO320
+subGroup1 sample sample COLO320-SNUC1=COLO320-SNUC1 COLO320-Caco2=COLO320-Caco2 SNUC1-COLO320=SNUC1-COLO320 SNUC1-Caco2=SNUC1-Caco2 Caco2-COLO320=Caco2-COLO320 Caco2-SNUC1=Caco2-SNUC1
 subGroup2 viewpoint viewpoint KCNE3=KCNE3 CHRDL2=CHRDL2 RNF169=RNF169 XRRA1=XRRA1 SPCS2=SPCS2 LIPT2=LIPT2 POLD3=POLD3 GREM1=GREM1 SCG5=SCG5 FMN1=FMN1
 subGroup3 aggregation aggregation mean=mean
 parent Subtraction on
@@ -2327,7 +3460,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction KCNE3
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2341,7 +3474,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction CHRDL2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2355,7 +3488,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction RNF169
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2369,7 +3502,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction XRRA1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2383,7 +3516,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction SPCS2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2397,7 +3530,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction LIPT2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2411,7 +3544,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction POLD3
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2425,7 +3558,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction GREM1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2439,7 +3572,7 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction SCG5
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2453,12 +3586,152 @@ compositeTrack on
     longLabel COLO320 SNUC1 mean subtraction FMN1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
     subGroups sample=COLO320-SNUC1 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionKCNE3_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionKCNE3_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction KCNE3
+    longLabel COLO320 Caco2 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionCHRDL2_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionCHRDL2_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction CHRDL2
+    longLabel COLO320 Caco2 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionRNF169_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionRNF169_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction RNF169
+    longLabel COLO320 Caco2 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionXRRA1_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionXRRA1_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction XRRA1
+    longLabel COLO320 Caco2 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionSPCS2_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionSPCS2_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction SPCS2
+    longLabel COLO320 Caco2 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionLIPT2_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionLIPT2_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction LIPT2
+    longLabel COLO320 Caco2 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionPOLD3_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionPOLD3_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction POLD3
+    longLabel COLO320 Caco2 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionGREM1_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionGREM1_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction GREM1
+    longLabel COLO320 Caco2 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionSCG5_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionSCG5_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction SCG5
+    longLabel COLO320 Caco2 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track COLO320Caco2meansubtractionFMN1_Subtraction_bigWig
+    bigDataUrl COLO320Caco2meansubtractionFMN1_Subtraction_bigWig.bigWig
+    shortLabel COLO320 Caco2 mean subtraction FMN1
+    longLabel COLO320 Caco2 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=FMN1 aggregation=mean
     parent Subtraction_bigWig on
 
     track SNUC1COLO320meansubtractionKCNE3_Subtraction_bigWig
@@ -2467,7 +3740,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction KCNE3
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2481,7 +3754,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction CHRDL2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2495,7 +3768,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction RNF169
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2509,7 +3782,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction XRRA1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2523,7 +3796,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction SPCS2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2537,7 +3810,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction LIPT2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2551,7 +3824,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction POLD3
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2565,7 +3838,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction GREM1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2579,7 +3852,7 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction SCG5
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2593,13 +3866,580 @@ compositeTrack on
     longLabel SNUC1 COLO320 mean subtraction FMN1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
     subGroups sample=SNUC1-COLO320 viewpoint=FMN1 aggregation=mean
     parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionKCNE3_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionKCNE3_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction KCNE3
+    longLabel SNUC1 Caco2 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionCHRDL2_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionCHRDL2_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction CHRDL2
+    longLabel SNUC1 Caco2 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionRNF169_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionRNF169_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction RNF169
+    longLabel SNUC1 Caco2 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionXRRA1_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionXRRA1_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction XRRA1
+    longLabel SNUC1 Caco2 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionSPCS2_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionSPCS2_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction SPCS2
+    longLabel SNUC1 Caco2 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionLIPT2_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionLIPT2_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction LIPT2
+    longLabel SNUC1 Caco2 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionPOLD3_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionPOLD3_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction POLD3
+    longLabel SNUC1 Caco2 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionGREM1_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionGREM1_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction GREM1
+    longLabel SNUC1 Caco2 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionSCG5_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionSCG5_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction SCG5
+    longLabel SNUC1 Caco2 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track SNUC1Caco2meansubtractionFMN1_Subtraction_bigWig
+    bigDataUrl SNUC1Caco2meansubtractionFMN1_Subtraction_bigWig.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction FMN1
+    longLabel SNUC1 Caco2 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionKCNE3_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionKCNE3_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction KCNE3
+    longLabel Caco2 COLO320 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionCHRDL2_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionCHRDL2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction CHRDL2
+    longLabel Caco2 COLO320 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionRNF169_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionRNF169_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction RNF169
+    longLabel Caco2 COLO320 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionXRRA1_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionXRRA1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction XRRA1
+    longLabel Caco2 COLO320 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionSPCS2_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionSPCS2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction SPCS2
+    longLabel Caco2 COLO320 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionLIPT2_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionLIPT2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction LIPT2
+    longLabel Caco2 COLO320 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionPOLD3_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionPOLD3_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction POLD3
+    longLabel Caco2 COLO320 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionGREM1_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionGREM1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction GREM1
+    longLabel Caco2 COLO320 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionSCG5_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionSCG5_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction SCG5
+    longLabel Caco2 COLO320 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2COLO320meansubtractionFMN1_Subtraction_bigWig
+    bigDataUrl Caco2COLO320meansubtractionFMN1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 COLO320 mean subtraction FMN1
+    longLabel Caco2 COLO320 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionKCNE3_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionKCNE3_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction KCNE3
+    longLabel Caco2 SNUC1 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionCHRDL2_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionCHRDL2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction CHRDL2
+    longLabel Caco2 SNUC1 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionRNF169_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionRNF169_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction RNF169
+    longLabel Caco2 SNUC1 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionXRRA1_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionXRRA1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction XRRA1
+    longLabel Caco2 SNUC1 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionSPCS2_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionSPCS2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction SPCS2
+    longLabel Caco2 SNUC1 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionLIPT2_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionLIPT2_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction LIPT2
+    longLabel Caco2 SNUC1 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionPOLD3_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionPOLD3_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction POLD3
+    longLabel Caco2 SNUC1 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionGREM1_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionGREM1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction GREM1
+    longLabel Caco2 SNUC1 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionSCG5_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionSCG5_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction SCG5
+    longLabel Caco2 SNUC1 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_bigWig on
+
+    track Caco2SNUC1meansubtractionFMN1_Subtraction_bigWig
+    bigDataUrl Caco2SNUC1meansubtractionFMN1_Subtraction_bigWig.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction FMN1
+    longLabel Caco2 SNUC1 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_bigWig on
+
+track Subtraction_COLO320-Caco2_overlay
+shortLabel Subtraction_COLO320-Caco2_overlay
+longLabel Subtraction_COLO320-Caco2_overlay
+aggregate transparentOverlay
+parent Subtraction on
+container multiWig
+
+    track COLO320Caco2meansubtractionKCNE3_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionKCNE3_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction KCNE3
+    longLabel COLO320 Caco2 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionCHRDL2_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionCHRDL2_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction CHRDL2
+    longLabel COLO320 Caco2 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionRNF169_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionRNF169_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction RNF169
+    longLabel COLO320 Caco2 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionXRRA1_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionXRRA1_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction XRRA1
+    longLabel COLO320 Caco2 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionSPCS2_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionSPCS2_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction SPCS2
+    longLabel COLO320 Caco2 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionLIPT2_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionLIPT2_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction LIPT2
+    longLabel COLO320 Caco2 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionPOLD3_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionPOLD3_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction POLD3
+    longLabel COLO320 Caco2 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionGREM1_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionGREM1_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction GREM1
+    longLabel COLO320 Caco2 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionSCG5_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionSCG5_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction SCG5
+    longLabel COLO320 Caco2 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
+
+    track COLO320Caco2meansubtractionFMN1_Subtraction_COLO320-Caco2_overlay
+    bigDataUrl COLO320Caco2meansubtractionFMN1_Subtraction_COLO320-Caco2_overlay.bigWig
+    shortLabel COLO320 Caco2 mean subtraction FMN1
+    longLabel COLO320 Caco2 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 255,152,150
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=COLO320-Caco2 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_COLO320-Caco2_overlay on
 
 track Subtraction_COLO320-SNUC1_overlay
 shortLabel Subtraction_COLO320-SNUC1_overlay
@@ -2614,7 +4454,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction KCNE3
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2628,7 +4468,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction CHRDL2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2642,7 +4482,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction RNF169
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2656,7 +4496,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction XRRA1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2670,7 +4510,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction SPCS2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2684,7 +4524,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction LIPT2
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2698,7 +4538,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction POLD3
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2712,7 +4552,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction GREM1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2726,7 +4566,7 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction SCG5
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2740,13 +4580,307 @@ container multiWig
     longLabel COLO320 SNUC1 mean subtraction FMN1
     type bigWig
     visibility full
-    color 44,160,44
+    color 214,39,40
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
     subGroups sample=COLO320-SNUC1 viewpoint=FMN1 aggregation=mean
     parent Subtraction_COLO320-SNUC1_overlay on
+
+track Subtraction_Caco2-COLO320_overlay
+shortLabel Subtraction_Caco2-COLO320_overlay
+longLabel Subtraction_Caco2-COLO320_overlay
+aggregate transparentOverlay
+parent Subtraction on
+container multiWig
+
+    track Caco2COLO320meansubtractionKCNE3_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionKCNE3_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction KCNE3
+    longLabel Caco2 COLO320 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionCHRDL2_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionCHRDL2_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction CHRDL2
+    longLabel Caco2 COLO320 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionRNF169_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionRNF169_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction RNF169
+    longLabel Caco2 COLO320 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionXRRA1_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionXRRA1_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction XRRA1
+    longLabel Caco2 COLO320 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionSPCS2_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionSPCS2_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction SPCS2
+    longLabel Caco2 COLO320 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionLIPT2_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionLIPT2_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction LIPT2
+    longLabel Caco2 COLO320 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionPOLD3_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionPOLD3_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction POLD3
+    longLabel Caco2 COLO320 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionGREM1_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionGREM1_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction GREM1
+    longLabel Caco2 COLO320 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionSCG5_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionSCG5_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction SCG5
+    longLabel Caco2 COLO320 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+    track Caco2COLO320meansubtractionFMN1_Subtraction_Caco2-COLO320_overlay
+    bigDataUrl Caco2COLO320meansubtractionFMN1_Subtraction_Caco2-COLO320_overlay.bigWig
+    shortLabel Caco2 COLO320 mean subtraction FMN1
+    longLabel Caco2 COLO320 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 140,86,75
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-COLO320 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_Caco2-COLO320_overlay on
+
+track Subtraction_Caco2-SNUC1_overlay
+shortLabel Subtraction_Caco2-SNUC1_overlay
+longLabel Subtraction_Caco2-SNUC1_overlay
+aggregate transparentOverlay
+parent Subtraction on
+container multiWig
+
+    track Caco2SNUC1meansubtractionKCNE3_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionKCNE3_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction KCNE3
+    longLabel Caco2 SNUC1 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionCHRDL2_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionCHRDL2_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction CHRDL2
+    longLabel Caco2 SNUC1 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionRNF169_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionRNF169_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction RNF169
+    longLabel Caco2 SNUC1 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionXRRA1_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionXRRA1_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction XRRA1
+    longLabel Caco2 SNUC1 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionSPCS2_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionSPCS2_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction SPCS2
+    longLabel Caco2 SNUC1 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionLIPT2_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionLIPT2_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction LIPT2
+    longLabel Caco2 SNUC1 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionPOLD3_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionPOLD3_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction POLD3
+    longLabel Caco2 SNUC1 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionGREM1_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionGREM1_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction GREM1
+    longLabel Caco2 SNUC1 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionSCG5_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionSCG5_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction SCG5
+    longLabel Caco2 SNUC1 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
+
+    track Caco2SNUC1meansubtractionFMN1_Subtraction_Caco2-SNUC1_overlay
+    bigDataUrl Caco2SNUC1meansubtractionFMN1_Subtraction_Caco2-SNUC1_overlay.bigWig
+    shortLabel Caco2 SNUC1 mean subtraction FMN1
+    longLabel Caco2 SNUC1 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 196,156,148
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=Caco2-SNUC1 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_Caco2-SNUC1_overlay on
 
 track Subtraction_SNUC1-COLO320_overlay
 shortLabel Subtraction_SNUC1-COLO320_overlay
@@ -2761,7 +4895,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction KCNE3
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2775,7 +4909,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction CHRDL2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2789,7 +4923,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction RNF169
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2803,7 +4937,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction XRRA1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2817,7 +4951,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction SPCS2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2831,7 +4965,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction LIPT2
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2845,7 +4979,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction POLD3
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2859,7 +4993,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction GREM1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2873,7 +5007,7 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction SCG5
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
@@ -2887,13 +5021,160 @@ container multiWig
     longLabel SNUC1 COLO320 mean subtraction FMN1
     type bigWig
     visibility full
-    color 152,223,138
+    color 148,103,189
     autoScale on
     maxHeightPixels 100:50:11
     viewLimits 0:100
     windowingFunction mean
     subGroups sample=SNUC1-COLO320 viewpoint=FMN1 aggregation=mean
     parent Subtraction_SNUC1-COLO320_overlay on
+
+track Subtraction_SNUC1-Caco2_overlay
+shortLabel Subtraction_SNUC1-Caco2_overlay
+longLabel Subtraction_SNUC1-Caco2_overlay
+aggregate transparentOverlay
+parent Subtraction on
+container multiWig
+
+    track SNUC1Caco2meansubtractionKCNE3_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionKCNE3_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction KCNE3
+    longLabel SNUC1 Caco2 mean subtraction KCNE3
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=KCNE3 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionCHRDL2_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionCHRDL2_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction CHRDL2
+    longLabel SNUC1 Caco2 mean subtraction CHRDL2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=CHRDL2 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionRNF169_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionRNF169_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction RNF169
+    longLabel SNUC1 Caco2 mean subtraction RNF169
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=RNF169 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionXRRA1_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionXRRA1_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction XRRA1
+    longLabel SNUC1 Caco2 mean subtraction XRRA1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=XRRA1 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionSPCS2_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionSPCS2_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction SPCS2
+    longLabel SNUC1 Caco2 mean subtraction SPCS2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=SPCS2 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionLIPT2_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionLIPT2_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction LIPT2
+    longLabel SNUC1 Caco2 mean subtraction LIPT2
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=LIPT2 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionPOLD3_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionPOLD3_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction POLD3
+    longLabel SNUC1 Caco2 mean subtraction POLD3
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=POLD3 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionGREM1_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionGREM1_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction GREM1
+    longLabel SNUC1 Caco2 mean subtraction GREM1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=GREM1 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionSCG5_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionSCG5_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction SCG5
+    longLabel SNUC1 Caco2 mean subtraction SCG5
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=SCG5 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
+
+    track SNUC1Caco2meansubtractionFMN1_Subtraction_SNUC1-Caco2_overlay
+    bigDataUrl SNUC1Caco2meansubtractionFMN1_Subtraction_SNUC1-Caco2_overlay.bigWig
+    shortLabel SNUC1 Caco2 mean subtraction FMN1
+    longLabel SNUC1 Caco2 mean subtraction FMN1
+    type bigWig
+    visibility full
+    color 197,176,213
+    autoScale on
+    maxHeightPixels 100:50:11
+    viewLimits 0:100
+    windowingFunction mean
+    subGroups sample=SNUC1-Caco2 viewpoint=FMN1 aggregation=mean
+    parent Subtraction_SNUC1-Caco2_overlay on
 
 track viewpoint
 bigDataUrl viewpoint.bigBed
